@@ -2,9 +2,9 @@
 
 ## Installation
 ```
-git clone ...
+git clone git@github.com:Ezka77/renew-aws-access-key.git
 cd renew-aws-access-key
-pip install --user -e .
+pip3 install --user -e .
 ```
 
 ## Usage
@@ -14,6 +14,3 @@ In a terminal:
 $ aws_renew_access_key
 ```
 
-done !
-
-It works from a crontab, and use a simple `git pull` to update.
