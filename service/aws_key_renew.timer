@@ -1,0 +1,11 @@
+[Unit]
+Description=AWS renew IAM access key timer
+RefuseManualStart=no
+
+[Timer]
+Persistent=true
+OnCalendar=monthly
+Unit=aws_key_renew.service
+
+[Install]
+WantedBy=timers.target

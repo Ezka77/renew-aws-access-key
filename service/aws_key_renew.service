@@ -1,0 +1,9 @@
+[Unit]
+Description=AWS renew IAM access key
+
+[Service]
+ExecStart=%h/.local/bin/aws_renew_access_key
+WorkingDirectory=%h
+
+[Install]
+WantedBy=default.target
