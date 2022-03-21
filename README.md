@@ -2,7 +2,7 @@
 
 ## Installation
 
-Clone and install
+### Clone and install
 
 ```
 git clone git@github.com:Ezka77/renew-aws-access-key.git
@@ -12,6 +12,11 @@ pip3 install --user -e .
 
 To update use `git pull`
 
+### Direct install
+
+```
+pip3 install --user git+https://github.com/Ezka77/renew-aws-access-key
+```
 
 ## Usage
 
