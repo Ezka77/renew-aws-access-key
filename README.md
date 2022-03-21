@@ -4,6 +4,7 @@
 
 ### Clone and install
 
+By using git, and keeping the repo up to date:
 ```
 git clone git@github.com:Ezka77/renew-aws-access-key.git
 cd renew-aws-access-key
@@ -14,8 +15,13 @@ To update use `git pull`
 
 ### Direct install
 
+Or by using pip
 ```
 pip3 install --user git+https://github.com/Ezka77/renew-aws-access-key
+```
+and to update: 
+```
+pip3 install --user --upgrade git+https://github.com/Ezka77/renew-aws-access-key
 ```
 
 ## Usage
